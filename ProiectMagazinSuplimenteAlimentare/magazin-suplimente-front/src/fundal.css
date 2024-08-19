@@ -1,0 +1,25 @@
+.backgroundImage {
+    width: 100%;
+    height: 100vh;  /* Full height of the viewport */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("./bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;       
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.transparent-input {
+    background-color: transparent;
+    border: 1px solid #ccc; /* Border subtle */
+    box-shadow: none; /* Remove any shadow */
+    color: #000; /* Text color */
+}
+
+.transparent-input:focus {
+    border-color: #666; /* Darker border on focus */
+    outline: none; /* Removes the default focus outline */
+}

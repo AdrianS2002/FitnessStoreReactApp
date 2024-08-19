@@ -1,0 +1,46 @@
+/* FormStyles.css */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 500px; /* Sets a max-width for form elements */
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea, .form-group button {
+    width: 100%; /* Ensures that input takes the full width of the form-group */
+    padding: 8px;
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+}
+
+.form-group button {
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.form-group input[type="number"], .form-group input[type="text"], .form-group textarea {
+    border: 1px solid #ccc;
+}
+.form-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
